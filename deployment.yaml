@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: churn-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: churn-app
+  template:
+    metadata:
+      labels:
+        app: churn-app
+    spec:
+      containers:
+        - name: churn-container
+          image: placework459/churn-inference:latest
+          ports:
+            - containerPort: 7860
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
