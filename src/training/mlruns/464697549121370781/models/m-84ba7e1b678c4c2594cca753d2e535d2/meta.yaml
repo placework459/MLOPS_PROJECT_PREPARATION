@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/karis/project_MLOPS/mlops-churn-capstone/src/training/mlruns/464697549121370781/models/m-84ba7e1b678c4c2594cca753d2e535d2/artifacts
+creation_timestamp: 1751119055042
+experiment_id: '464697549121370781'
+last_updated_timestamp: 1751119064550
+model_id: m-84ba7e1b678c4c2594cca753d2e535d2
+model_type: ''
+name: model
+source_run_id: e999d4c7e18248f29c76479e8a17bf27
+status: 2
+status_message: null

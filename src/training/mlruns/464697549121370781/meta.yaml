@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/karis/project_MLOPS/mlops-churn-capstone/src/training/mlruns/464697549121370781
+creation_time: 1751119051632
+experiment_id: '464697549121370781'
+last_update_time: 1751119051632
+lifecycle_stage: active
+name: churn-prediction

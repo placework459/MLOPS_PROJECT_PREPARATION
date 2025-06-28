@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/karis/project_MLOPS/mlops-churn-capstone/src/training/mlruns/464697549121370781/models/m-84ba7e1b678c4c2594cca753d2e535d2/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.1.1
+mlflow_version: 3.1.1
+model_id: m-84ba7e1b678c4c2594cca753d2e535d2
+model_size_bytes: 260554
+model_uuid: m-84ba7e1b678c4c2594cca753d2e535d2
+prompts: null
+run_id: e999d4c7e18248f29c76479e8a17bf27
+utc_time_created: '2025-06-28 13:57:35.170526'

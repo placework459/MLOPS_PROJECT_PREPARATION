@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/karis/project_MLOPS/mlops-churn-capstone/src/training/mlruns/464697549121370781/e999d4c7e18248f29c76479e8a17bf27/artifacts
+end_time: 1751119064994
+entry_point_name: ''
+experiment_id: '464697549121370781'
+lifecycle_stage: active
+run_id: e999d4c7e18248f29c76479e8a17bf27
+run_name: crawling-stork-766
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751119052724
+status: 3
+tags: []
+user_id: karis
